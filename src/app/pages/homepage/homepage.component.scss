@@ -1,0 +1,47 @@
+.homepage-wrapper {
+  .homepage-title {
+    width: 100%;
+    margin: 20em auto;
+
+    .title {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+
+      h2 {
+        font-family: 'Libre Barcode 39 Text', cursive;
+        font-size: 200px;
+        color: white;
+        font-weight: 100;
+        margin: 0 2rem;
+
+        span {
+          color: #ec0d0d;
+        }
+      }
+    }
+
+    .subtitle {
+      width: 100%;
+      p {
+        font-size: 22px;
+        color: white;
+        text-align: center;
+        font-weight: 200;
+        letter-spacing: 10px;
+        margin: 2em auto;
+
+        span {
+          color: #ec0d0d;
+        }
+      }
+    }
+  }
+
+  .products-wrapper {
+
+  }
+}
+
