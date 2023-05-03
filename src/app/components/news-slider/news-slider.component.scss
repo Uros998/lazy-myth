@@ -1,0 +1,45 @@
+.news-slider-wrapper {
+  width: 80%;
+  height: auto;
+  margin: 1rem auto;
+
+  .news-slider-title {
+    margin: 0 auto;
+    padding: 2rem 0;
+
+    h2 {
+      font-size: 60px;
+      letter-spacing: 5px;
+      font-weight: 400;
+      text-align: left;
+      color: white;
+
+      &::after {
+        content: '';
+        display: block;
+        width: 20%;
+        bottom: 0;
+        height: 5px;
+        background-color: #ec0d0d;
+      }
+
+      span {
+        color: black;
+        background: #ec0d0d;
+        font-weight: 600;
+      }
+
+    }
+  }
+
+  .news-slider {
+    width: 100%;
+    height: auto;
+
+    img {
+      width: 100%;
+      margin: 0 auto;
+
+    }
+  }
+}
