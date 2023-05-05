@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import {CUSTOM_ELEMENTS_SCHEMA, NgModule} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -7,6 +7,8 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
 import {RouterModule} from "@angular/router";
 import {AppRoutingModule} from "./app-routing.module";
 import { NewsSliderComponent } from './components/news-slider/news-slider.component';
+import {SwiperDirective} from "./directive/swiper.directive";
+
 
 @NgModule({
   declarations: [
@@ -14,6 +16,7 @@ import { NewsSliderComponent } from './components/news-slider/news-slider.compon
     HeaderComponent,
     HomepageComponent,
     NewsSliderComponent,
+    SwiperDirective,
   ],
   imports: [
     BrowserModule,
@@ -21,6 +24,7 @@ import { NewsSliderComponent } from './components/news-slider/news-slider.compon
     AppRoutingModule
   ],
   providers: [],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
