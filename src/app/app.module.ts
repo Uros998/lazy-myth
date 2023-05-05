@@ -6,12 +6,14 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import {RouterModule} from "@angular/router";
 import {AppRoutingModule} from "./app-routing.module";
+import { NewsSliderComponent } from './components/news-slider/news-slider.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomepageComponent
+    HomepageComponent,
+    NewsSliderComponent,
   ],
   imports: [
     BrowserModule,
