@@ -1,0 +1,23 @@
+<div class="new-collection-wrapper">
+  <div class="new-collection-title">
+    <h2>New <span>C</span>ollection </h2>
+  </div>
+
+  <div class="card__collection clear-fix">
+    <div *ngFor="let collection of collectionList">
+      <a href="{{collection?.link}}">
+        <div class="cards cards--three">
+          <img src="{{collection?.image}}" class="img-responsive" alt="">
+          <span class="cards--three__rect-1">
+          <span class="shadow-1"><h3>Click for more</h3></span>
+          <p>{{collection?.title}}</p>
+        </span>
+          <span class="cards--three__rect-2">
+          <span class="shadow-2"></span>
+        </span>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+

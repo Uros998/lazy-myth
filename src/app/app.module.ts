@@ -8,6 +8,7 @@ import {RouterModule} from "@angular/router";
 import {AppRoutingModule} from "./app-routing.module";
 import { NewsSliderComponent } from './components/news-slider/news-slider.component';
 import {SwiperDirective} from "./directive/swiper.directive";
+import { NewCollectionComponent } from './components/new-collection/new-collection.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import {SwiperDirective} from "./directive/swiper.directive";
     HomepageComponent,
     NewsSliderComponent,
     SwiperDirective,
+    NewCollectionComponent,
   ],
   imports: [
     BrowserModule,
